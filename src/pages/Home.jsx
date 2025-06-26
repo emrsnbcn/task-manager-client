@@ -44,7 +44,7 @@ function Home() {
 							maxWidth="lg"
 							sx={{ margin: "20px auto" }}>
 							{tasks
-								.map((task) => (
+								?.map((task) => (
 									<TaskItem
 										key={task._id}
 										task={task}
